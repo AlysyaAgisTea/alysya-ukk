@@ -1,0 +1,180 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.logo {
+    width: 150px;
+    height: auto;
+    margin-left: 20px;
+}
+
+header {
+    background-color: rosybrown;
+    padding: 20px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+nav ul li {
+    margin-right: 20px;
+} 
+
+nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.btn-order {
+    background-color: #3489db;
+    color: #000(8, 10, 10);
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+/* Hero Section */
+#hero {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 40px;
+    background-color: antiquewhite;
+}
+
+.hero image {
+    width: 100px;
+    max-width: 600px;
+    height: auto;
+    border-radius: 10px;
+}
+
+.hero.content {
+   max-width: 600px;
+   text-align: center;
+}
+
+.btn-primary {
+    background-color: white;
+    color: #3489db;
+    display: inline-block;
+    padding: 10px 20px;
+    margin-top: 20px;
+    border-radius: 50px;
+    text-decoration: none;
+}
+
+/* Products */
+#product h2 {
+    padding: 40 0 0 40;
+}
+
+.products-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 40px 0;
+}
+
+.product {
+    text-align: center;
+    max-width: 30px;
+    margin: 20px;
+}
+
+.product img {
+    width: auto;
+    height: 400px;
+    border-radius: 10px;
+}
+
+/* Testimonials Section */
+#testimonials {
+    background-color: white;
+    padding: 40px;
+    text-align: center; 
+}
+
+.testinonials {
+    margin: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.testimonial {
+    margin: 20px;
+    max-width: 300px;
+}
+
+.testimonials img {
+    width: 100px;
+    height: auto;
+    border-radius: 50%;
+}
+
+/* Contact Us Section */
+#contact {
+    padding: 40px;
+    text-align: center;
+}
+
+form input,
+form textarea {
+    width: 100%;
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid white;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: white;
+    color: aliceblue;
+    cursor: pointer;
+}
+
+/* footter */
+footer {
+    background-color: azure;
+    color: #000;
+    text-align: center;
+    padding: 30px;
+}
+
+footer p {
+    margin: 0px;
+}
+
+.social-icons {
+    margin-bottom: 10px;
+}
+
+.social-icons img {
+    width: 30px;
+    margin: 0 18px;
+}
+
+footer div img {
+    width: 100px;
+    height: 100px;
+}
+
